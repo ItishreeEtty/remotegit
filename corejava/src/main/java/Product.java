@@ -9,5 +9,9 @@ public class Product {
 		int c = a + b;
 
 		int d = a - b;
+
+		ABC abc = new ABC();
+		int result = abc.m4(10, 40);
+		System.out.println("result: " + result);
 	}
 }
